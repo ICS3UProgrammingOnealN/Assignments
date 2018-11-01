@@ -139,7 +139,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PizzaCostOneal.Properties.Resources.pizza;
-            this.pictureBox1.Location = new System.Drawing.Point(-6, -10);
+            this.pictureBox1.Location = new System.Drawing.Point(-8, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(943, 567);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,6 +149,7 @@
             // radSmall
             // 
             this.radSmall.AutoSize = true;
+            this.radSmall.Checked = true;
             this.radSmall.Location = new System.Drawing.Point(45, 104);
             this.radSmall.Name = "radSmall";
             this.radSmall.Size = new System.Drawing.Size(50, 17);
@@ -204,7 +205,7 @@
             // 
             this.lblDrinks.AutoSize = true;
             this.lblDrinks.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrinks.Location = new System.Drawing.Point(741, 312);
+            this.lblDrinks.Location = new System.Drawing.Point(745, 139);
             this.lblDrinks.Name = "lblDrinks";
             this.lblDrinks.Size = new System.Drawing.Size(62, 24);
             this.lblDrinks.TabIndex = 18;
@@ -213,7 +214,7 @@
             // radCoke
             // 
             this.radCoke.AutoSize = true;
-            this.radCoke.Location = new System.Drawing.Point(745, 351);
+            this.radCoke.Location = new System.Drawing.Point(749, 186);
             this.radCoke.Name = "radCoke";
             this.radCoke.Size = new System.Drawing.Size(50, 17);
             this.radCoke.TabIndex = 19;
@@ -224,7 +225,7 @@
             // radSprite
             // 
             this.radSprite.AutoSize = true;
-            this.radSprite.Location = new System.Drawing.Point(749, 388);
+            this.radSprite.Location = new System.Drawing.Point(749, 222);
             this.radSprite.Name = "radSprite";
             this.radSprite.Size = new System.Drawing.Size(52, 17);
             this.radSprite.TabIndex = 20;
@@ -235,7 +236,7 @@
             // radPepsi
             // 
             this.radPepsi.AutoSize = true;
-            this.radPepsi.Location = new System.Drawing.Point(749, 427);
+            this.radPepsi.Location = new System.Drawing.Point(749, 266);
             this.radPepsi.Name = "radPepsi";
             this.radPepsi.Size = new System.Drawing.Size(51, 17);
             this.radPepsi.TabIndex = 21;
